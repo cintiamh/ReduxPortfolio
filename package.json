@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --port 3000 --devtool eval --progress --colors --hot --content-base dist",
     "build": "webpack",
-    "lint": "eslint . --ext .js --ext .jsx",
+    "lint": "eslint ./src --ext .js --ext .jsx",
     "test": "node_modules/.bin/karma start karma.config.js",
     "test:dev": "npm run test -- --watch"
   },
