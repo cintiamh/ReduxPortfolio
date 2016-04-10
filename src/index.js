@@ -7,7 +7,7 @@ import App from './components/App';
 
 let store = createStore(portfolioApp);
 
-render (
+render(
     <Provider store={store}>
         <App />
     </Provider>,
