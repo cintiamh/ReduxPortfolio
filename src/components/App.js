@@ -1,9 +1,10 @@
 import React from 'react';
+import FullPage from './FullPage';
 import '../scss/main.scss';
 
 const App = () => (
-  <div>
-    <h1>Cintia Higashi</h1>
+  <div className="app">
+    <FullPage />
   </div>
 );
 
