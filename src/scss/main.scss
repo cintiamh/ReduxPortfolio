@@ -9,6 +9,10 @@ $color-beige: #E5E1D1;
 $color-dark-grey: #2C343B;
 $color-light-grey: #52616D;
 
+$color-background: $color-beige;
+$color-headers: $color-red;
+$color-text: $color-dark-grey;
+
 img, embed, object, video {
   max-width: 100%;
 }
@@ -16,13 +20,13 @@ img, embed, object, video {
 html, body {
   font-family: $font-text;
   height: 100%;
-  color: $color-dark-grey;
+  color: $color-text;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: $font-title;
   font-weight: 100;
-  color: $color-red;
+  color: $color-headers;
 }
 
 h1 {
@@ -48,7 +52,7 @@ h5 {
 #root {
   height: 100%;
   min-height: 100%;
-  background-color: $color-beige;
+  background-color: $color-background;
 
   .app {
     height: 100%;
