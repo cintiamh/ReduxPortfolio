@@ -1,17 +1,23 @@
 @import 'reset';
 
-$font-title: 'Poiret One', Verdana, Geneva, sans-serif;
+//$font-title: 'Poiret One', Verdana, Geneva, sans-serif;
+$font-title: 'Lobster', cursive;
 $font-text: 'Lato', Verdana, Geneva, sans-serif;
 
 $color-red: #C44741;
-$color-white: #FFFFFF;
+//$color-white: #FFFFFF;
+$color-white: #FEFEFE;
 $color-beige: #E5E1D1;
-$color-dark-grey: #2C343B;
-$color-light-grey: #52616D;
+//$color-dark-grey: #2C343B;
+//$color-light-grey: #52616D;
+$color-dark-grey: #2B2B2B;
+$color-light-grey: #808080;
+$color-light-pink: #F3C3C6;
+$color-light-blue: #94AdDE;
 
-$color-background: $color-beige;
-$color-headers: $color-red;
-$color-text: $color-dark-grey;
+$color-background: $color-white;
+$color-headers: $color-dark-grey;
+$color-text: $color-light-grey;
 
 img, embed, object, video {
   max-width: 100%;
